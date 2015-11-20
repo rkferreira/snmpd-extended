@@ -1,0 +1,2 @@
+# storage-processor analyzer
+*/3 * * * * root /usr/local/bin/sp-analyzer.py >/dev/null 2>&1
