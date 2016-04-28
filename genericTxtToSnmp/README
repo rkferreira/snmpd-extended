@@ -1,0 +1,18 @@
+##
+# 
+# It's a generic module for sending any TXT file in below format to SNMP.
+# 
+# You drop a txt file in this format anywhere and get a indice/value table:
+# StatusFile format:
+# LABEL0 VALUE0
+# LABEL1 VALUE1
+# LABEL2 VALUE2
+#
+# maxage is statusfile maxage in seconds
+#
+#  [generic]
+#  root=110
+#  statusfile=/tmp/statusfile.txt
+#  maxage=1
+#
+##
